@@ -1,27 +1,27 @@
+# Program to sum up the digits present in a given string:
 
-# Write a program to add the numbers present inside the string which are along with characters
+str1 = 'Shiva262916'
 
-# Given string:
-s = 'SHIVA2629'
+# Sum of digits using the while loop:
+def sum_digits_using_while(str1):
+    """Returns the sum of digits in the string using a while loop."""
+    i = 0
+    
+    total_sum = 0
+    while i < len(str1):
+        if str1[i].isdigit():
+            total_sum += int(str1[i])
+        i += 1
+    return total_sum
 
-# Logic:
 
-# Using while loop:
-i = 0
-end = len(s)-1
-total_sum = 0
+# Sum of digits using for loop:
+def sum_digits_using_for(str1):
+    """Returns the sum of digits in the string using a for loop."""
+    return sum(int(char) for char in str1 if char.isdigit())
 
-while i <= end:
-    if "0" <= s[i] <= "9":
-        total_sum+= int(s[i])
-    i+=1
-print(total_sum)
 
-# Using for loop:
-# total_sum_of_nums = 0
-# for i in s:
-#     if i.isdigit():
-#         total_sum_of_nums = total_sum_of_nums + int(i)
-#     else:
-#         ...
-# print(total_sum_of_nums)
+
+# Example usage
+print("Sum using while loop:", sum_digits_using_while(str1))
+print("Sum using for loop:", sum_digits_using_for(str1))
