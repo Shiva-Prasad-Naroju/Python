@@ -25,3 +25,17 @@ def sum_digits_using_for(str1):
 # Example usage
 print("Sum using while loop:", sum_digits_using_while(str1))
 print("Sum using for loop:", sum_digits_using_for(str1))
+
+
+# write a program to count the number of characters:
+
+s = 'dont do it'
+i = 0
+end = len(s)-1
+total_char = 0
+
+while i <= end:
+    total_char+=1
+    i+=1
+print(total_char)
+
