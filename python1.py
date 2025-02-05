@@ -38,4 +38,3 @@ while i <= end:
     total_char+=1
     i+=1
 print(total_char)
-
