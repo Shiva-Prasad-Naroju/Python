@@ -26,6 +26,7 @@ def sum_digits_using_for(str1):
 print("Sum using while loop:", sum_digits_using_while(str1))
 print("Sum using for loop:", sum_digits_using_for(str1))
 
+# ------------------------------------------------------------------
 
 # write a program to count the number of characters:
 
