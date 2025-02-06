@@ -40,7 +40,9 @@ Welcome to my **Python Repository**! 🚀 This space is dedicated to everything 
 👋 Hi! I’m **Shiva Prasad**, an aspiring **Machine Learning Engineer** and **Full Stack Developer**.  
 📌 Passionate about **Problem-Solving, Data Science, Machine Learning, Deep Learning and real-world applications of Python**.  
 
-🔗 **Connect with me:** [LinkedIn] : https://linkedin.com/in/shiva-prasad-naroju | [GitHub]https://github.com/Shiva-Prasad-Naroju
+🔗 **Connect with me:** 
+[LinkedIn] : https://linkedin.com/in/shiva-prasad-naroju-4772a6184 
+[GitHub]   : https://github.com/Shiva-Prasad-Naroju
  
 
 ---
